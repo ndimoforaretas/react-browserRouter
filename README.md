@@ -394,7 +394,7 @@ function NavbarComponent() {
 export default NavbarComponent;
 ```
 
-### Summary
+## Summary
 
 In order to implement routing in a React application with the `Browser Router` from the `react-router-dom` package, you need to:
 
@@ -411,7 +411,3 @@ In order to implement routing in a React application with the `Browser Router` f
   - [ ] Set up a `Redirect` component to redirect the user to a different page when they navigate to a specific URL.
   - [ ] Set up a `useNavigate` hook to navigate to a different page programmatically.
   - [ ] Set up a `useParams` hook to access the parameters in the URL.
-
-```
-
-```
