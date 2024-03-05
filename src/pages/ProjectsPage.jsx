@@ -10,14 +10,14 @@ const ProjectsPage = () => {
       url: "https://react-projects.netlify.app/",
       github: "https://github.com/john-smilga",
       title: "Coffee Explorer",
-      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+      text: "A full-stack NextJS App for coffee nerds and enthusiasts built with NextJS, FoursquareAPI, UnsplashAPI and deployed on Netlify.",
     },
     {
       id: nanoid(),
       img: "https://ndimoforaretas.github.io/portfolio/_next/static/media/modern-eshop.3b965659.gif",
       url: "https://react-projects.netlify.app/",
       github: "https://github.com/john-smilga",
-      title: "Modern E-Shop Website",
+      title: "React E-Shop Website",
       text: "A full-stack E-commerce App built with ReactJS, TypeScript, Firebase, Redux Saga integrated with Stripe and Google Authentication.",
     },
     {
