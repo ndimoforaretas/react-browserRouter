@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { Link, Outlet } from "react-router-dom";
+import { FaLaptopCode } from "react-icons/fa";
 
 function NavbarComponent() {
   const links = [
@@ -13,8 +14,9 @@ function NavbarComponent() {
     <>
       <nav className="bg-purple-100">
         <div className="align-element justify-between py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
-          <h2 className="text-3xl font-bold">
-            Bum<span className="text-purple-700">Dings</span>
+          <h2 className="text-3xl font-bold flex items-center gap-1">
+            <FaLaptopCode />
+            BD<span className="text-purple-700">Code</span>
           </h2>
           <ul className="flex gap-x-3">
             {links.map((link) => (
