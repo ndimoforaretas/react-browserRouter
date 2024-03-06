@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, NavLink } from "react-router-dom";
 
 function NavbarComponent() {
   const links = [
@@ -13,7 +13,13 @@ function NavbarComponent() {
       <ul className="flex space-x-4 bg-gray-800 text-white p-4">
         {links.map((link, index) => (
           <li key={index}>
-            <Link to={link.path}>{link.name}</Link>
+            <NavLink
+              to={link.path}
+              className={({ isActive }) =>
+                isActive && "text-yellow-300 underline"
+              }>
+              {link.name}
+            </NavLink>
           </li>
         ))}
       </ul>
