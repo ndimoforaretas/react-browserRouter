@@ -4,7 +4,6 @@ Im nächsten Schritt machen wir folgendes:
 
 - Richte eine `404` Seite ein, die angezeigt wird, wenn jemand auf eine URL navigiert, die es nicht gibt.
 - Unterschied zwischen `<Link>` und `<NavLink>`
-- Richte verschachtelte Routen für die verschiedenen Seiten ein.
 - Verwende den `useNavigate` Hook, um programmatisch auf eine andere Seite zu navigieren.
 - Erstelle eine Login-Seite und ein Anmeldeformular, um die Nutzung des `useNavigate` Hooks zu demonstrieren.
 
