@@ -21,8 +21,9 @@ This project demonstrates how to set up a React project with the `react-router-d
 - [ ] Create a `tailwind.config.js` file in the root of the project and add the following code:
 
 ```javascript
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
