@@ -1,9 +1,7 @@
 import { nanoid } from "nanoid";
-styling
+
 import { Link, Outlet } from "react-router-dom";
 import { FaLaptopCode } from "react-icons/fa";
-
-main
 
 function NavbarComponent() {
   const links = [
@@ -11,13 +9,10 @@ function NavbarComponent() {
     { id: nanoid(), path: "/about", name: "About" },
     { id: nanoid(), path: "/skills", name: "Skills" },
     { id: nanoid(), path: "/projects", name: "Projects" },
- styling
- main
   ];
 
   return (
     <>
-styling
       <nav className="bg-purple-100">
         <div className="align-element justify-between py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
           <Link to="/">
@@ -36,8 +31,6 @@ styling
             ))}
           </ul>
         </div>
-
- main
       </nav>
       <Outlet />
     </>
